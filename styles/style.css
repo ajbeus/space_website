@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poetsen+One&display=swap');
+
+:root {
+    --primary-color: #0E21A0   ;
+    --secondary-color: #4D2DB7 ;
+    --accent1-color: #9D44C0;
+    --accent2-color: white;
+  
+    --heading-font: "Poetsen One";
+    --paragraph-font: "DM Serif Text";
+  
+    --headline-color-on-white: #0E21A0;
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #0E21A0; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #0E21A0  ;
+    --nav-link-color: white;
+    --nav-background-color: #4D2DB7;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #9D44C0;
+  }
+
+
+.starry-background{
+  width: 50%;
+}
+#hero-img{
+  width: 50%;
+}
