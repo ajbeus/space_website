@@ -210,3 +210,31 @@ form button:hover {
   from {opacity: .4} 
   to {opacity: 1}
 }
+.science-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.ngc{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#science-paragraph{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+#articles{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  color: white;
+  font-size: 2em;
+  background-color: var(--accent1-color);
+}
+.artemis{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
